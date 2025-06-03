@@ -1,0 +1,13 @@
+{
+    "name": "Alza vse zadara",
+    "version": "1.0.0",
+    "description": "Meni cenu na alze na korunu",
+    "manifest_version": 3,
+    "author": "Ondrej Filip",
+    "content_scripts": [
+        {
+          "matches": ["*://*.alza.cz/*"],
+          "js": ["main.js"]
+        }
+      ]
+}
